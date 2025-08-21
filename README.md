@@ -1,50 +1,21 @@
-# Welcome to your Expo app 👋
+# 📱 App Scan RN 
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+O **App Scan RN** é um aplicativo desenvolvido em **React Native** com **Expo** que permite aos usuários cadastrar produtos em uma plataforma de forma rápida, escaneando o código de barras ou QR code.
+Além do código, o usuário pode informar o preço e a loja em que o produto se encontra, ajudando a criar uma base de dados colaborativa.
+---
+## 🎯 Objetivo
 
-## Get started
+Facilitar o registro de produtos e preços em diferentes lojas, tornando possível comparar valores e localizar onde determinado produto está mais barato.
+---
+## 🚀 Tecnologias
 
-1. Install dependencies
+- [Expo](https://expo.dev/)  
+- [React Native](https://reactnative.dev/)  
+- [expo-camera](https://docs.expo.dev/versions/latest/sdk/camera/)  
+---
+## ✨ Funcionalidades
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+-📷 Escaneamento de códigos de barras e QR codes.
+-📝 Cadastro de produtos após o scan (nome, preço e loja).
+-🔄 Alternância entre câmera frontal e traseira.
+-✅ Permissões de câmera gerenciadas de forma simples.
