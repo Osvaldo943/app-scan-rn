@@ -4,9 +4,11 @@ O **App Scan RN** é um aplicativo desenvolvido em **React Native** com **Expo**
 Além do código, o usuário pode informar o preço e a loja em que o produto se encontra, ajudando a criar uma base de dados colaborativa.
 
 ---
+
 ## 🎯 Objetivo
 
 Facilitar o registro de produtos e preços em diferentes lojas, tornando possível comparar valores e localizar onde determinado produto está mais barato.
+
 ---
 
 ## 🚀 Tecnologias
