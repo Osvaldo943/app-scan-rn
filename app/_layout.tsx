@@ -1,29 +1,21 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
-import { useFonts } from 'expo-font';
-import { Stack } from 'expo-router';
-import { StatusBar } from 'expo-status-bar';
-import 'react-native-reanimated';
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import { useColorScheme } from '@/hooks/useColorScheme';
+import NotFoundScreen from "./+not-found";
+import Camera from "./camera";
+import HomeScreen from "./home";
+import NewProdudct from "./newProduct";
+import ProductComparison from "./productComparison";
 
-export default function RootLayout() {
-  const colorScheme = useColorScheme();
-  const [loaded] = useFonts({
-    SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
-  });
+const Stack = createNativeStackNavigator();
 
-  if (!loaded) {
-    // Async font loading only occurs in development.
-    return null;
-  }
-
+export default function App() {
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="+not-found" />
-      </Stack>
-      <StatusBar style="auto" />
-    </ThemeProvider>
+    <Stack.Navigator>
+      <Stack.Screen name="/Home" component={HomeScreen} />
+      <Stack.Screen name="/Camera" component={Camera} />
+      <Stack.Screen name="/NewProduct/[code]" component={NewProdudct}/>
+      <Stack.Screen name="/ProductComparison/[code]" component={ProductComparison}/>
+      <Stack.Screen name="/+NotFound" component={NotFoundScreen} />
+    </Stack.Navigator>
   );
 }
