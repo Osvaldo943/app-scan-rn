@@ -21,6 +21,9 @@ Facilitar o registro de produtos e preços em diferentes lojas, tornando possív
 ## ✨ Funcionalidades
 
 -📷 Escaneamento de códigos de barras e QR codes.
+
 -📝 Cadastro de produtos após o scan (nome, preço e loja).
+
 -🔄 Alternância entre câmera frontal e traseira.
+
 -✅ Permissões de câmera gerenciadas de forma simples.
