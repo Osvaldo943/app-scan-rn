@@ -1,4 +1,4 @@
-# 📱 App Scan RN 
+# 📱 App Scan 
 
 O **App Scan RN** é um aplicativo desenvolvido em **React Native** com **Expo** que permite aos usuários cadastrar produtos em uma plataforma de forma rápida, escaneando o código de barras ou QR code.
 Além do código, o usuário pode informar o preço e a loja em que o produto se encontra, ajudando a criar uma base de dados colaborativa.
